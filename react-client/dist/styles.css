@@ -1,0 +1,80 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    /* background-image: url(./images/background.svg); */
+    background: url(./images/background.svg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Lobster', cursive;
+}
+
+.background {
+    text-align: center;
+    
+}
+
+.spacer {
+    padding-top: 10%;
+}
+
+.center {
+    text-align: center;
+    color: #fff;
+}
+
+.jumbotron {
+    background-color: rgba(238, 238, 238, 0.63) !important;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    -webkit-animation: color-change 2s infinite;
+    -moz-animation: color-change 2s infinite;
+    -o-animation: color-change 2s infinite;
+    -ms-animation: color-change 2s infinite;
+    animation: color-change 2s infinite;
+}
+
+a {
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: #f44292; }
+    50% { color: #f4ac41; }
+    100% { color: #f44292; }
+}
+@-moz-keyframes color-change {
+    0% { color: #f44292; }
+    50% { color: #f4ac41; }
+    100% { color: #f44292; }
+}
+@-ms-keyframes color-change {
+    0% { color: #f44292; }
+    50% { color: #f4ac41; }
+    100% { color: #f44292; }
+}
+@-o-keyframes color-change {
+    0% { color: #f44292; }
+    50% { color: #f4ac41; }
+    100% { color: #f44292; }
+}
+@keyframes color-change {
+    0% { color: #f44292; }
+    50% { color: #f4ac41; }
+    100% { color: #f44292; }
+}
